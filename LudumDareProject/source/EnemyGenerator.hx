@@ -1,30 +1,39 @@
 package;
 
+import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.system.FlxAssets.FlxGraphicAsset;
-import flixel.util.FlxColor;
 
 /**
  * ...
- * @author Joshua
+ * @author Ludum Team
  */
-class FoodTruck extends FlxSprite
+class EnemyGenerator extends FlxSprite 
 {
-	static private var life:Float;
+	
+	var timer:Float = 0;
+	var maxTime:Float = 3;
+	var Enemy:Enemigo;
+	
 	public function new(?X:Float=0, ?Y:Float=0, ?SimpleGraphic:FlxGraphicAsset) 
 	{
 		super(X, Y, SimpleGraphic);
-		makeGraphic(100, 50, FlxColor.RED);
-		life = 0;
+		
 	}
+
 	
 	override public function update(elapsed:Float):Void 
 	{
+		timer += elapsed;
+		if (timer >= maxTime)
+		{
+			Enemy = new Enemigo(this.x, this.y);
+			FlxG.state.add(Enemy);
+			timer = 0;
+		}
 		
 		super.update(elapsed);
+		
 	}
-	static public function Getter():Float
-	{
-		return life;
-	}
+	
 }

@@ -15,7 +15,9 @@ class PlayState extends FlxState
 		var truck = new FoodTruck(100, 100);
 		var generador = new ComensalesGenerator(100, 200);
 		var GL = new GameLogic();
+		var GeneratorEnemy = new EnemyGenerator(500.200);
 		
+		add(GeneratorEnemy);
 		add(GL);
 		add(truck);
 		add(player);
