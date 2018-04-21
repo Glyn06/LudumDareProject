@@ -25,22 +25,22 @@ class Personaje extends FlxSprite
 		velocity.x = 0;
 		velocity.y = 0;
 		
-		if (FlxG.keys.pressed.A) 
+		if (FlxG.keys.pressed.LEFT) 
 		{
 			velocity.x = -50;
 		}
 		
-		if (FlxG.keys.pressed.D) 
+		if (FlxG.keys.pressed.RIGHT) 
 		{
 			velocity.x = 50;
 		}
 		
-		if (FlxG.keys.pressed.W) 
+		if (FlxG.keys.pressed.UP) 
 		{
 			velocity.y = -50;
 		}
 		
-		if (FlxG.keys.pressed.S) 
+		if (FlxG.keys.pressed.DOWN) 
 		{
 			velocity.y = 50;
 		}
