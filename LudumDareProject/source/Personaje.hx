@@ -48,4 +48,8 @@ class Personaje extends FlxSprite
 		super.update(elapsed);
 	}
 	
+	public function GameOver():Void
+	{
+		destroy();
+	}
 }

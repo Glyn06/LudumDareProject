@@ -59,9 +59,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
-		
-		
-		
 		Font.registerFont (__ASSET__flixel_fonts_nokiafc22_ttf);
 		Font.registerFont (__ASSET__flixel_fonts_monsterrat_ttf);
 		
@@ -71,9 +68,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#if (windows || mac || linux)
 		
 		var useManifest = false;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
 		useManifest = true;
 		
 		className.set ("flixel/sounds/beep.ogg", __ASSET__flixel_sounds_beep_ogg);
@@ -579,9 +573,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
-		
-		
-		
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_monsterrat_ttf);
 		
@@ -591,14 +582,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		#if flash
 		
-		path.set ("assets/data/data-goes-here.txt", "assets/data/data-goes-here.txt");
-		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
-		path.set ("assets/images/images-go-here.txt", "assets/images/images-go-here.txt");
-		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
-		path.set ("assets/music/music-goes-here.txt", "assets/music/music-goes-here.txt");
-		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
-		path.set ("assets/sounds/sounds-go-here.txt", "assets/sounds/sounds-go-here.txt");
-		type.set ("assets/sounds/sounds-go-here.txt", AssetType.TEXT);
+		path.set ("assets/Delete me.txt", "assets/Delete me.txt");
+		type.set ("assets/Delete me.txt", AssetType.TEXT);
 		className.set ("flixel/sounds/beep.ogg", __ASSET__flixel_sounds_beep_ogg);
 		type.set ("flixel/sounds/beep.ogg", AssetType.SOUND);
 		className.set ("flixel/sounds/flixel.ogg", __ASSET__flixel_sounds_flixel_ogg);
@@ -616,16 +601,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#elseif html5
 		
 		var id;
-		id = "assets/data/data-goes-here.txt";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/images/images-go-here.txt";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/music/music-goes-here.txt";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/sounds/sounds-go-here.txt";
+		id = "assets/Delete me.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
 		id = "flixel/sounds/beep.ogg";
@@ -669,9 +645,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#if (windows || mac || linux)
 		
 		var useManifest = false;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
 		useManifest = true;
 		
 		className.set ("flixel/sounds/beep.ogg", __ASSET__flixel_sounds_beep_ogg);
@@ -1410,9 +1383,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if flash
 
 
-
-
-
 @:keep @:bind #if display private #end class __ASSET__flixel_sounds_beep_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__flixel_sounds_flixel_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__flixel_fonts_nokiafc22_ttf extends null { }
@@ -1422,9 +1392,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 #elseif html5
-
-
-
 
 
 
