@@ -9,7 +9,10 @@ class PlayState extends FlxState
 		super.create();
 		
 		var player = new Personaje(0, 0);
+		var truck = new FoodTruck(100, 100);
 		
+		
+		add(truck);
 		add(player);
 	}
 
