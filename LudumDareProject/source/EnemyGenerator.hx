@@ -2,6 +2,7 @@ package;
 
 import flixel.FlxG;
 import flixel.FlxSprite;
+import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.system.FlxAssets.FlxGraphicAsset;
 
 /**
@@ -13,7 +14,7 @@ class EnemyGenerator extends FlxSprite
 	
 	var timer:Float = 0;
 	var maxTime:Float = 3;
-	var Enemy:Enemigo;
+	static public var groupenemy(get,null) = new FlxTypedGroup<Enemigo>();
 	
 	public function new(?X:Float=0, ?Y:Float=0, ?SimpleGraphic:FlxGraphicAsset) 
 	{
@@ -30,13 +31,18 @@ class EnemyGenerator extends FlxSprite
 		timer += elapsed;
 		if (timer >= maxTime)
 		{
-			Enemy = new Enemigo(this.x, this.y);
-			FlxG.state.add(Enemy);
+			for (i in 0...6) 
+			{
+				var Enemy = new Enemigo(x,y);
+				groupenemy.add(Enemy);
+				FlxG.state.add(groupenemy);
+			}
 			timer = 0;
 		}
-		
-		
-		
 	}
 	
+	public static function get_groupenemy():FlxTypedGroup<Enemigo>
+	{
+		return groupenemy;
+	}
 }

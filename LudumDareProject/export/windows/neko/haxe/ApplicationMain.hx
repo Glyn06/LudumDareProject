@@ -515,7 +515,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "15",
+			build: "81",
 			company: "Joshua",
 			file: "LudumDareProject",
 			fps: 60,

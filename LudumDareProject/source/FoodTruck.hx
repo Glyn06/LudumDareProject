@@ -12,7 +12,7 @@ import flixel.FlxG ;
  */
 class FoodTruck extends FlxSprite
 {
-	static private var life:Float;
+	static private var life(get,null):Float;
 	private var Camion:FoodTruck;
 	private var Enemy2:Enemigo;
 	public function new(?X:Float=0, ?Y:Float=0, ?SimpleGraphic:FlxGraphicAsset) 
@@ -20,19 +20,14 @@ class FoodTruck extends FlxSprite
 		super(X, Y, SimpleGraphic);
 		makeGraphic(100, 50, FlxColor.RED);
 		life = 100;
-		Enemy2.x = Enemigo.get_X();
-		Enemy2.y = Enemigo.get_Y();
 	}
 	
 	override public function update(elapsed:Float):Void 
 	{
 		super.update(elapsed);
-		if (FlxG.collide (Camion,Enemy2)) 
-		{
-			trace("MEH MEH MEH");
-		}
 	}
-	static public function Getter():Float
+	
+	static public function get_life():Float
 	{
 		return life;
 	}

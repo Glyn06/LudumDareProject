@@ -11,17 +11,17 @@ class PlayState extends FlxState
 	
 	var player = new Personaje(0, 0);
 	var truck = new FoodTruck(100, 100);
-	var enemy_ = new Enemigo(0,0);
 	var generador = new ComensalesGenerator(100, 200);
+	var generatorEnemy = new EnemyGenerator(500,200);
 	var gl = new GameLogic();
-	public var generatorEnemy = new EnemyGenerator(500,200);
 
 	
 	override public function create():Void
 	{
 		super.create();
 		
-		add(enemy_);
+		truck.immovable = true;
+		
 		add(generatorEnemy);
 		add(gl);
 		add(truck);
@@ -32,15 +32,31 @@ class PlayState extends FlxState
 	{
 		super.update(elapsed);
 		
-		truck.setPosition(100,100);
-	if (FlxG.collide (player,truck) == true)
+		//Player colissions
+		FlxG.collide (player, truck);
+		
+		if (FlxG.collide (player, EnemyGenerator.get_groupenemy()))
 		{
-			trace("Auch, culo por cierto");
+			Personaje.set_shoot(true);
 		}
-		if (FlxG.collide (player,enemy_) == true)
+		if (FlxG.collide (player, ComensalesGenerator.get_grupocomen())) 
 		{
-			trace("Auch, culo por cierto");
+			trace("Trace");
 		}
+		
+		//Truck colissions
+		if (FlxG.collide (truck, ComensalesGenerator.get_grupocomen()))
+		{
+			trace("HEy oh lets go");
+		}
+		if (FlxG.collide(truck, EnemyGenerator.get_groupenemy())) 
+		{
+			trace("OH FUCK NO!");
+		}
+		
+		//Bullet collisions
+		
+	
 	}
 }
 	

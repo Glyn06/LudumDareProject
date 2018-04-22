@@ -15,8 +15,7 @@ class ComensalesGenerator extends FlxSprite
 
 	var timer:Float = 0;
 	var maxTime:Float = 3;
-	static var comensal:Comensal;
-	static public var grupocomen = new FlxTypedGroup<Comensal>();
+	static public var grupocomen(get,null) = new FlxTypedGroup<Comensal>();
 	
 	public function new(?X:Float=0, ?Y:Float=0, ?SimpleGraphic:FlxGraphicAsset) 
 	{
@@ -38,5 +37,10 @@ class ComensalesGenerator extends FlxSprite
 			}
 			timer = 0;
 		}
+	}
+	
+	static public function get_grupocomen():FlxTypedGroup<Comensal>
+	{
+		return grupocomen;
 	}
 }
