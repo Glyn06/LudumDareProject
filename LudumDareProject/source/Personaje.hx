@@ -4,7 +4,6 @@ import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.system.FlxAssets.FlxGraphicAsset;
 import flixel.util.FlxColor;
-
 /**
  * ...
  * @author Joshua
@@ -26,7 +25,6 @@ class Personaje extends FlxSprite
 		super(X, Y, SimpleGraphic);
 		makeGraphic(16, 16, FlxColor.WHITE);
 	}
-	
 	override public function update(elapsed:Float):Void 
 	{
 		Movement();
