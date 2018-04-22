@@ -12,7 +12,7 @@ import flixel.FlxG ;
  */
 class FoodTruck extends FlxSprite
 {
-	static private var life:Float;
+	static private var life(get,null):Float;
 	private var Camion:FoodTruck;
 	public function new(?X:Float=0, ?Y:Float=0, ?SimpleGraphic:FlxGraphicAsset) 
 	{
@@ -25,7 +25,8 @@ class FoodTruck extends FlxSprite
 	{
 		super.update(elapsed);
 	}
-	static public function Getter():Float
+	
+	static public function get_life():Float
 	{
 		return life;
 	}

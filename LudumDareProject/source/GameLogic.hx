@@ -28,7 +28,7 @@ class GameLogic extends FlxBasic
 			GameOver();
 			Reloj = 0;
 		}
-		if (FoodTruck.Getter()==0)
+		if (FoodTruck.get_life()==0)
 		{
 			GameOver();
 		}
