@@ -14,10 +14,11 @@ class Enemigo extends FlxSprite
 	{
 		super(X, Y, SimpleGraphic);
 		makeGraphic(16, 16, FlxColor.YELLOW);
-		velocity.x = 100;
+		
 	}
 	override public function update(elapsed:Float):Void
 	{
-		
+		super.update(elapsed);
+		velocity.x = 100;
 	}
 }

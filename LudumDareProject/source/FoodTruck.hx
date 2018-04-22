@@ -31,4 +31,9 @@ class FoodTruck extends FlxSprite
 		return life;
 	}
 	
+	static public function set_life(_life:Float):Void
+	{
+		life -= _life;
+	}
+	
 }
