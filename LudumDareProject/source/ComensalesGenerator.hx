@@ -30,7 +30,7 @@ class ComensalesGenerator extends FlxSprite
 		timer += elapsed;
 		if (timer >= maxTime)
 		{   
-				for (i in 0...6) 
+			for (i in 0...6) 
 			{
 			var comensales = new Comensal(x,y);
 			grupocomen.add(comensales);
