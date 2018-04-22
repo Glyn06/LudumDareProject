@@ -2,6 +2,7 @@ package;
 
 import flixel.FlxG;
 import flixel.FlxSprite;
+import flixel.math.FlxRandom;
 import flixel.system.FlxAssets.FlxGraphicAsset;
 
 /**
@@ -14,13 +15,19 @@ class EnemyGenerator extends FlxSprite
 	var timer:Float = 0;
 	var maxTime:Float = 3;
 	var Enemy:Enemigo;
-	
+	private var generator:FlxRandom;
+	private var generator2:FlxRandom;
+	var Randomx :Float = 0;
+	var Randomy :Float = 0;
+	var Random2:Float = 0;
+
 	public function new(?X:Float=0, ?Y:Float=0, ?SimpleGraphic:FlxGraphicAsset) 
 	{
 		super(X, Y, SimpleGraphic);
+		generator = new FlxRandom();
+		generator2 = new FlxRandom();
 		
-	}
-
+	};
 	
 	override public function update(elapsed:Float):Void 
 	{
@@ -30,9 +37,37 @@ class EnemyGenerator extends FlxSprite
 		timer += elapsed;
 		if (timer >= maxTime)
 		{
+			Randomx = generator.int(0, 1024);
+			Randomy = generator.int(0,768);
+			Random2 = generator.int(1, 4);
+			if (Random2==1) 
+			{
+				x = Randomx;
+				y = 0;
+				trace("Soy el 1");
+			}else if (Random2==2) 
+			{
+				x = Randomx;
+				y = 768-16;
+				trace("soy el 2");
+			}else if (Random2==3) 
+			{
+				x = 0;
+				y = Randomy;
+				trace("soy el 3");
+			}else if (Random2==4) 
+			{
+				x = 1024-16;
+				y = Randomy;
+				trace("soy el 4");
+			}
 			Enemy = new Enemigo(this.x, this.y);
 			FlxG.state.add(Enemy);
+			
+			
+			
 			timer = 0;
+		
 		}
 		
 		

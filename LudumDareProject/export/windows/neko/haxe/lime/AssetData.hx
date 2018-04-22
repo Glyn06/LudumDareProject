@@ -48,8 +48,6 @@ class AssetData {
 			type.set ("assets/bro 1-20180421-141615.piskel", Reflect.field (AssetType, "text".toUpperCase ()));
 			path.set ("assets/coronel sanders-20180421-165511.piskel", "assets/coronel sanders-20180421-165511.piskel");
 			type.set ("assets/coronel sanders-20180421-165511.piskel", Reflect.field (AssetType, "text".toUpperCase ()));
-			path.set ("assets/data/data-goes-here.txt", "assets/data/data-goes-here.txt");
-			type.set ("assets/data/data-goes-here.txt", Reflect.field (AssetType, "text".toUpperCase ()));
 			path.set ("assets/Delete me.txt", "assets/Delete me.txt");
 			type.set ("assets/Delete me.txt", Reflect.field (AssetType, "text".toUpperCase ()));
 			path.set ("assets/food truck/adilla puta-20180421-150010.piskel", "assets/food truck/adilla puta-20180421-150010.piskel");
@@ -124,12 +122,8 @@ class AssetData {
 			type.set ("assets/food truck-20180421-150537.piskel", Reflect.field (AssetType, "text".toUpperCase ()));
 			path.set ("assets/hemanos 12-20180421-142928.piskel", "assets/hemanos 12-20180421-142928.piskel");
 			type.set ("assets/hemanos 12-20180421-142928.piskel", Reflect.field (AssetType, "text".toUpperCase ()));
-			path.set ("assets/images/images-go-here.txt", "assets/images/images-go-here.txt");
-			type.set ("assets/images/images-go-here.txt", Reflect.field (AssetType, "text".toUpperCase ()));
 			path.set ("assets/mc pedro-20180421-163652.piskel", "assets/mc pedro-20180421-163652.piskel");
 			type.set ("assets/mc pedro-20180421-163652.piskel", Reflect.field (AssetType, "text".toUpperCase ()));
-			path.set ("assets/music/music-goes-here.txt", "assets/music/music-goes-here.txt");
-			type.set ("assets/music/music-goes-here.txt", Reflect.field (AssetType, "text".toUpperCase ()));
 			path.set ("assets/New Piskel-20180421-163701.piskel", "assets/New Piskel-20180421-163701.piskel");
 			type.set ("assets/New Piskel-20180421-163701.piskel", Reflect.field (AssetType, "text".toUpperCase ()));
 			path.set ("assets/New Piskel-20180421-172844.piskel", "assets/New Piskel-20180421-172844.piskel");
@@ -154,8 +148,6 @@ class AssetData {
 			type.set ("assets/Sin animar sprites terminados/koronel zordor-20180421-173324.piskel", Reflect.field (AssetType, "text".toUpperCase ()));
 			path.set ("assets/Sin animar sprites terminados/War Donnals-20180421-171702.piskel", "assets/Sin animar sprites terminados/War Donnals-20180421-171702.piskel");
 			type.set ("assets/Sin animar sprites terminados/War Donnals-20180421-171702.piskel", Reflect.field (AssetType, "text".toUpperCase ()));
-			path.set ("assets/sounds/sounds-go-here.txt", "assets/sounds/sounds-go-here.txt");
-			type.set ("assets/sounds/sounds-go-here.txt", Reflect.field (AssetType, "text".toUpperCase ()));
 			path.set ("flixel/sounds/beep.ogg", "flixel/sounds/beep.ogg");
 			type.set ("flixel/sounds/beep.ogg", Reflect.field (AssetType, "sound".toUpperCase ()));
 			path.set ("flixel/sounds/flixel.ogg", "flixel/sounds/flixel.ogg");

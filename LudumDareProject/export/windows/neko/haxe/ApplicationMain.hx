@@ -515,11 +515,7 @@ class ApplicationMain {
 		
 		config = {
 			
-<<<<<<< Updated upstream
-			build: "14",
-=======
-			build: "225",
->>>>>>> Stashed changes
+			build: "78",
 			company: "Joshua",
 			file: "LudumDareProject",
 			fps: 60,
