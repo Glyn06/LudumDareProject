@@ -124,6 +124,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
 		Font.registerFont (__ASSET__flixel_fonts_nokiafc22_ttf);
 		Font.registerFont (__ASSET__flixel_fonts_monsterrat_ttf);
 		
@@ -133,6 +137,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#if (windows || mac || linux)
 		
 		var useManifest = false;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
@@ -768,6 +776,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_monsterrat_ttf);
 		
@@ -809,6 +821,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/bro 1-20180421-141615.piskel", AssetType.TEXT);
 		path.set ("assets/coronel sanders-20180421-165511.piskel", "assets/coronel sanders-20180421-165511.piskel");
 		type.set ("assets/coronel sanders-20180421-165511.piskel", AssetType.TEXT);
+		path.set ("assets/data/data-goes-here.txt", "assets/data/data-goes-here.txt");
+		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
 		path.set ("assets/Delete me.txt", "assets/Delete me.txt");
 		type.set ("assets/Delete me.txt", AssetType.TEXT);
 		path.set ("assets/food truck/adilla puta-20180421-150010.piskel", "assets/food truck/adilla puta-20180421-150010.piskel");
@@ -883,8 +897,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/food truck-20180421-150537.piskel", AssetType.TEXT);
 		path.set ("assets/hemanos 12-20180421-142928.piskel", "assets/hemanos 12-20180421-142928.piskel");
 		type.set ("assets/hemanos 12-20180421-142928.piskel", AssetType.TEXT);
+		path.set ("assets/images/images-go-here.txt", "assets/images/images-go-here.txt");
+		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
 		path.set ("assets/mc pedro-20180421-163652.piskel", "assets/mc pedro-20180421-163652.piskel");
 		type.set ("assets/mc pedro-20180421-163652.piskel", AssetType.TEXT);
+		path.set ("assets/music/music-goes-here.txt", "assets/music/music-goes-here.txt");
+		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
 		path.set ("assets/New Piskel-20180421-163701.piskel", "assets/New Piskel-20180421-163701.piskel");
 		type.set ("assets/New Piskel-20180421-163701.piskel", AssetType.TEXT);
 		path.set ("assets/New Piskel-20180421-172844.piskel", "assets/New Piskel-20180421-172844.piskel");
@@ -909,6 +927,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/Sin animar sprites terminados/koronel zordor-20180421-173324.piskel", AssetType.TEXT);
 		path.set ("assets/Sin animar sprites terminados/War Donnals-20180421-171702.piskel", "assets/Sin animar sprites terminados/War Donnals-20180421-171702.piskel");
 		type.set ("assets/Sin animar sprites terminados/War Donnals-20180421-171702.piskel", AssetType.TEXT);
+		path.set ("assets/sounds/sounds-go-here.txt", "assets/sounds/sounds-go-here.txt");
+		type.set ("assets/sounds/sounds-go-here.txt", AssetType.TEXT);
 		className.set ("flixel/sounds/beep.ogg", __ASSET__flixel_sounds_beep_ogg);
 		type.set ("flixel/sounds/beep.ogg", AssetType.SOUND);
 		className.set ("flixel/sounds/flixel.ogg", __ASSET__flixel_sounds_flixel_ogg);
@@ -972,6 +992,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
 		id = "assets/coronel sanders-20180421-165511.piskel";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "assets/data/data-goes-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
 		id = "assets/Delete me.txt";
@@ -1085,7 +1108,13 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/hemanos 12-20180421-142928.piskel";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/images/images-go-here.txt";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
 		id = "assets/mc pedro-20180421-163652.piskel";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "assets/music/music-goes-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
 		id = "assets/New Piskel-20180421-163701.piskel";
@@ -1122,6 +1151,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
 		id = "assets/Sin animar sprites terminados/War Donnals-20180421-171702.piskel";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "assets/sounds/sounds-go-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
 		id = "flixel/sounds/beep.ogg";
@@ -1165,6 +1197,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#if (windows || mac || linux)
 		
 		var useManifest = false;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
@@ -2033,6 +2069,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+
+
+
+
 @:keep @:bind #if display private #end class __ASSET__flixel_sounds_beep_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__flixel_sounds_flixel_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__flixel_fonts_nokiafc22_ttf extends null { }
@@ -2042,6 +2082,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 #elseif html5
+
+
+
+
 
 
 

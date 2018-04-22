@@ -22,8 +22,21 @@ class Personaje extends FlxSprite
 	
 	override public function update(elapsed:Float):Void 
 	{
+		Movement();
+		if (FlxG.keys.pressed.L)
+		{
+			
+		}
 		super.update(elapsed);
-		
+	}
+	
+	public function GameOver():Void
+	{
+		destroy();
+	}
+	
+	public function Movement():Void
+	{
 		velocity.x = 0;
 		velocity.y = 0;
 		
@@ -46,9 +59,5 @@ class Personaje extends FlxSprite
 		{
 			velocity.y = 50;
 		}
-		
-		
 	}
-	
-	
 }
