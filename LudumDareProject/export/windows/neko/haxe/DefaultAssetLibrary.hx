@@ -87,43 +87,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		Font.registerFont (__ASSET__flixel_fonts_nokiafc22_ttf);
 		Font.registerFont (__ASSET__flixel_fonts_monsterrat_ttf);
 		
@@ -133,43 +96,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#if (windows || mac || linux)
 		
 		var useManifest = false;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
@@ -731,43 +657,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_monsterrat_ttf);
 		
@@ -777,138 +666,64 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		#if flash
 		
-		path.set ("assets/adilla puta-20180421-150010.piskel", "assets/adilla puta-20180421-150010.piskel");
-		type.set ("assets/adilla puta-20180421-150010.piskel", AssetType.TEXT);
-		path.set ("assets/Adilla puta.txt", "assets/Adilla puta.txt");
-		type.set ("assets/Adilla puta.txt", AssetType.TEXT);
-		path.set ("assets/Animaciones terminadas/animacion chabon-20180421-170607.piskel", "assets/Animaciones terminadas/animacion chabon-20180421-170607.piskel");
-		type.set ("assets/Animaciones terminadas/animacion chabon-20180421-170607.piskel", AssetType.TEXT);
-		path.set ("assets/Animaciones terminadas/animacion chabon.png", "assets/Animaciones terminadas/animacion chabon.png");
-		type.set ("assets/Animaciones terminadas/animacion chabon.png", AssetType.IMAGE);
-		path.set ("assets/Animaciones terminadas/ardilla puta-20180421-174524.piskel", "assets/Animaciones terminadas/ardilla puta-20180421-174524.piskel");
-		type.set ("assets/Animaciones terminadas/ardilla puta-20180421-174524.piskel", AssetType.TEXT);
-		path.set ("assets/Animaciones terminadas/ardilla puta.png", "assets/Animaciones terminadas/ardilla puta.png");
-		type.set ("assets/Animaciones terminadas/ardilla puta.png", AssetType.IMAGE);
-		path.set ("assets/Animaciones terminadas/bro rambo corre ametralladora-20180421-172646.piskel", "assets/Animaciones terminadas/bro rambo corre ametralladora-20180421-172646.piskel");
-		type.set ("assets/Animaciones terminadas/bro rambo corre ametralladora-20180421-172646.piskel", AssetType.TEXT);
-		path.set ("assets/Animaciones terminadas/bro rambo corre ametralladora.png", "assets/Animaciones terminadas/bro rambo corre ametralladora.png");
-		type.set ("assets/Animaciones terminadas/bro rambo corre ametralladora.png", AssetType.IMAGE);
-		path.set ("assets/Animaciones terminadas/bro rambo corre-20180421-172042.piskel", "assets/Animaciones terminadas/bro rambo corre-20180421-172042.piskel");
-		type.set ("assets/Animaciones terminadas/bro rambo corre-20180421-172042.piskel", AssetType.TEXT);
-		path.set ("assets/Animaciones terminadas/bro rambo corre.png", "assets/Animaciones terminadas/bro rambo corre.png");
-		type.set ("assets/Animaciones terminadas/bro rambo corre.png", AssetType.IMAGE);
-		path.set ("assets/Animaciones terminadas/pajaro-20180421-173818.piskel", "assets/Animaciones terminadas/pajaro-20180421-173818.piskel");
-		type.set ("assets/Animaciones terminadas/pajaro-20180421-173818.piskel", AssetType.TEXT);
-		path.set ("assets/Animaciones terminadas/pajaro.png", "assets/Animaciones terminadas/pajaro.png");
-		type.set ("assets/Animaciones terminadas/pajaro.png", AssetType.IMAGE);
-		path.set ("assets/Animaciones terminadas/serpiente-20180421-180540.piskel", "assets/Animaciones terminadas/serpiente-20180421-180540.piskel");
-		type.set ("assets/Animaciones terminadas/serpiente-20180421-180540.piskel", AssetType.TEXT);
-		path.set ("assets/Animaciones terminadas/serpiente.png", "assets/Animaciones terminadas/serpiente.png");
-		type.set ("assets/Animaciones terminadas/serpiente.png", AssetType.IMAGE);
-		path.set ("assets/bro 1-20180421-141615.piskel", "assets/bro 1-20180421-141615.piskel");
-		type.set ("assets/bro 1-20180421-141615.piskel", AssetType.TEXT);
-		path.set ("assets/coronel sanders-20180421-165511.piskel", "assets/coronel sanders-20180421-165511.piskel");
-		type.set ("assets/coronel sanders-20180421-165511.piskel", AssetType.TEXT);
-		path.set ("assets/Delete me.txt", "assets/Delete me.txt");
-		type.set ("assets/Delete me.txt", AssetType.TEXT);
-		path.set ("assets/food truck/adilla puta-20180421-150010.piskel", "assets/food truck/adilla puta-20180421-150010.piskel");
-		type.set ("assets/food truck/adilla puta-20180421-150010.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Adilla puta.txt", "assets/food truck/Adilla puta.txt");
-		type.set ("assets/food truck/Adilla puta.txt", AssetType.TEXT);
-		path.set ("assets/food truck/Animaciones terminadas/animacion chabon-20180421-170607.piskel", "assets/food truck/Animaciones terminadas/animacion chabon-20180421-170607.piskel");
-		type.set ("assets/food truck/Animaciones terminadas/animacion chabon-20180421-170607.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Animaciones terminadas/animacion chabon.png", "assets/food truck/Animaciones terminadas/animacion chabon.png");
-		type.set ("assets/food truck/Animaciones terminadas/animacion chabon.png", AssetType.IMAGE);
-		path.set ("assets/food truck/Animaciones terminadas/ardilla puta-20180421-174524.piskel", "assets/food truck/Animaciones terminadas/ardilla puta-20180421-174524.piskel");
-		type.set ("assets/food truck/Animaciones terminadas/ardilla puta-20180421-174524.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Animaciones terminadas/ardilla puta.png", "assets/food truck/Animaciones terminadas/ardilla puta.png");
-		type.set ("assets/food truck/Animaciones terminadas/ardilla puta.png", AssetType.IMAGE);
-		path.set ("assets/food truck/Animaciones terminadas/bro rambo corre ametralladora-20180421-172646.piskel", "assets/food truck/Animaciones terminadas/bro rambo corre ametralladora-20180421-172646.piskel");
-		type.set ("assets/food truck/Animaciones terminadas/bro rambo corre ametralladora-20180421-172646.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Animaciones terminadas/bro rambo corre ametralladora-20180421-181809.piskel", "assets/food truck/Animaciones terminadas/bro rambo corre ametralladora-20180421-181809.piskel");
-		type.set ("assets/food truck/Animaciones terminadas/bro rambo corre ametralladora-20180421-181809.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Animaciones terminadas/bro rambo corre ametralladora.png", "assets/food truck/Animaciones terminadas/bro rambo corre ametralladora.png");
-		type.set ("assets/food truck/Animaciones terminadas/bro rambo corre ametralladora.png", AssetType.IMAGE);
-		path.set ("assets/food truck/Animaciones terminadas/bro rambo corre-20180421-172042.piskel", "assets/food truck/Animaciones terminadas/bro rambo corre-20180421-172042.piskel");
-		type.set ("assets/food truck/Animaciones terminadas/bro rambo corre-20180421-172042.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Animaciones terminadas/bro rambo corre.png", "assets/food truck/Animaciones terminadas/bro rambo corre.png");
-		type.set ("assets/food truck/Animaciones terminadas/bro rambo corre.png", AssetType.IMAGE);
-		path.set ("assets/food truck/Animaciones terminadas/pajaro-20180421-173818.piskel", "assets/food truck/Animaciones terminadas/pajaro-20180421-173818.piskel");
-		type.set ("assets/food truck/Animaciones terminadas/pajaro-20180421-173818.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Animaciones terminadas/pajaro.png", "assets/food truck/Animaciones terminadas/pajaro.png");
-		type.set ("assets/food truck/Animaciones terminadas/pajaro.png", AssetType.IMAGE);
-		path.set ("assets/food truck/Animaciones terminadas/serpiente-20180421-180540.piskel", "assets/food truck/Animaciones terminadas/serpiente-20180421-180540.piskel");
-		type.set ("assets/food truck/Animaciones terminadas/serpiente-20180421-180540.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Animaciones terminadas/serpiente.png", "assets/food truck/Animaciones terminadas/serpiente.png");
-		type.set ("assets/food truck/Animaciones terminadas/serpiente.png", AssetType.IMAGE);
-		path.set ("assets/food truck/bro 1-20180421-141615.piskel", "assets/food truck/bro 1-20180421-141615.piskel");
-		type.set ("assets/food truck/bro 1-20180421-141615.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/coronel sanders-20180421-165511.piskel", "assets/food truck/coronel sanders-20180421-165511.piskel");
-		type.set ("assets/food truck/coronel sanders-20180421-165511.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/food truck-20180421-150537.piskel", "assets/food truck/food truck-20180421-150537.piskel");
-		type.set ("assets/food truck/food truck-20180421-150537.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/hemanos 12-20180421-142928.piskel", "assets/food truck/hemanos 12-20180421-142928.piskel");
-		type.set ("assets/food truck/hemanos 12-20180421-142928.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/mc pedro-20180421-163652.piskel", "assets/food truck/mc pedro-20180421-163652.piskel");
-		type.set ("assets/food truck/mc pedro-20180421-163652.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/New Piskel-20180421-163701.piskel", "assets/food truck/New Piskel-20180421-163701.piskel");
-		type.set ("assets/food truck/New Piskel-20180421-163701.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/New Piskel-20180421-172844.piskel", "assets/food truck/New Piskel-20180421-172844.piskel");
-		type.set ("assets/food truck/New Piskel-20180421-172844.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/pajaro-20180421-172355.piskel", "assets/food truck/pajaro-20180421-172355.piskel");
-		type.set ("assets/food truck/pajaro-20180421-172355.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Sin animar sprites terminados/bro cocinero quieto-20180421-173658.piskel", "assets/food truck/Sin animar sprites terminados/bro cocinero quieto-20180421-173658.piskel");
-		type.set ("assets/food truck/Sin animar sprites terminados/bro cocinero quieto-20180421-173658.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Sin animar sprites terminados/bro rambo ametralladora-20180421-170441.piskel", "assets/food truck/Sin animar sprites terminados/bro rambo ametralladora-20180421-170441.piskel");
-		type.set ("assets/food truck/Sin animar sprites terminados/bro rambo ametralladora-20180421-170441.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Sin animar sprites terminados/bro rambo pistola-20180421-175121.piskel", "assets/food truck/Sin animar sprites terminados/bro rambo pistola-20180421-175121.piskel");
-		type.set ("assets/food truck/Sin animar sprites terminados/bro rambo pistola-20180421-175121.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Sin animar sprites terminados/bro rambo-20180421-164853.piskel", "assets/food truck/Sin animar sprites terminados/bro rambo-20180421-164853.piskel");
-		type.set ("assets/food truck/Sin animar sprites terminados/bro rambo-20180421-164853.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Sin animar sprites terminados/comensal 1.png", "assets/food truck/Sin animar sprites terminados/comensal 1.png");
-		type.set ("assets/food truck/Sin animar sprites terminados/comensal 1.png", AssetType.IMAGE);
-		path.set ("assets/food truck/Sin animar sprites terminados/escala-20180421-134033.piskel", "assets/food truck/Sin animar sprites terminados/escala-20180421-134033.piskel");
-		type.set ("assets/food truck/Sin animar sprites terminados/escala-20180421-134033.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Sin animar sprites terminados/food truck (1).png", "assets/food truck/Sin animar sprites terminados/food truck (1).png");
-		type.set ("assets/food truck/Sin animar sprites terminados/food truck (1).png", AssetType.IMAGE);
-		path.set ("assets/food truck/Sin animar sprites terminados/Food truck terminado.piskel", "assets/food truck/Sin animar sprites terminados/Food truck terminado.piskel");
-		type.set ("assets/food truck/Sin animar sprites terminados/Food truck terminado.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Sin animar sprites terminados/koronel zordor-20180421-173324.piskel", "assets/food truck/Sin animar sprites terminados/koronel zordor-20180421-173324.piskel");
-		type.set ("assets/food truck/Sin animar sprites terminados/koronel zordor-20180421-173324.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Sin animar sprites terminados/mujer 2 completa-20180421-182343.piskel", "assets/food truck/Sin animar sprites terminados/mujer 2 completa-20180421-182343.piskel");
-		type.set ("assets/food truck/Sin animar sprites terminados/mujer 2 completa-20180421-182343.piskel", AssetType.TEXT);
-		path.set ("assets/food truck/Sin animar sprites terminados/War Donnals-20180421-171702.piskel", "assets/food truck/Sin animar sprites terminados/War Donnals-20180421-171702.piskel");
-		type.set ("assets/food truck/Sin animar sprites terminados/War Donnals-20180421-171702.piskel", AssetType.TEXT);
-		path.set ("assets/food truck-20180421-150537.piskel", "assets/food truck-20180421-150537.piskel");
-		type.set ("assets/food truck-20180421-150537.piskel", AssetType.TEXT);
-		path.set ("assets/hemanos 12-20180421-142928.piskel", "assets/hemanos 12-20180421-142928.piskel");
-		type.set ("assets/hemanos 12-20180421-142928.piskel", AssetType.TEXT);
-		path.set ("assets/mc pedro-20180421-163652.piskel", "assets/mc pedro-20180421-163652.piskel");
-		type.set ("assets/mc pedro-20180421-163652.piskel", AssetType.TEXT);
-		path.set ("assets/New Piskel-20180421-163701.piskel", "assets/New Piskel-20180421-163701.piskel");
-		type.set ("assets/New Piskel-20180421-163701.piskel", AssetType.TEXT);
-		path.set ("assets/New Piskel-20180421-172844.piskel", "assets/New Piskel-20180421-172844.piskel");
-		type.set ("assets/New Piskel-20180421-172844.piskel", AssetType.TEXT);
-		path.set ("assets/pajaro-20180421-172355.piskel", "assets/pajaro-20180421-172355.piskel");
-		type.set ("assets/pajaro-20180421-172355.piskel", AssetType.TEXT);
-		path.set ("assets/Sin animar sprites terminados/bro cocinero quieto-20180421-173658.piskel", "assets/Sin animar sprites terminados/bro cocinero quieto-20180421-173658.piskel");
-		type.set ("assets/Sin animar sprites terminados/bro cocinero quieto-20180421-173658.piskel", AssetType.TEXT);
-		path.set ("assets/Sin animar sprites terminados/bro rambo ametralladora-20180421-170441.piskel", "assets/Sin animar sprites terminados/bro rambo ametralladora-20180421-170441.piskel");
-		type.set ("assets/Sin animar sprites terminados/bro rambo ametralladora-20180421-170441.piskel", AssetType.TEXT);
-		path.set ("assets/Sin animar sprites terminados/bro rambo pistola-20180421-175121.piskel", "assets/Sin animar sprites terminados/bro rambo pistola-20180421-175121.piskel");
-		type.set ("assets/Sin animar sprites terminados/bro rambo pistola-20180421-175121.piskel", AssetType.TEXT);
-		path.set ("assets/Sin animar sprites terminados/bro rambo-20180421-164853.piskel", "assets/Sin animar sprites terminados/bro rambo-20180421-164853.piskel");
-		type.set ("assets/Sin animar sprites terminados/bro rambo-20180421-164853.piskel", AssetType.TEXT);
-		path.set ("assets/Sin animar sprites terminados/escala-20180421-134033.piskel", "assets/Sin animar sprites terminados/escala-20180421-134033.piskel");
-		type.set ("assets/Sin animar sprites terminados/escala-20180421-134033.piskel", AssetType.TEXT);
-		path.set ("assets/Sin animar sprites terminados/food truck (1).png", "assets/Sin animar sprites terminados/food truck (1).png");
-		type.set ("assets/Sin animar sprites terminados/food truck (1).png", AssetType.IMAGE);
-		path.set ("assets/Sin animar sprites terminados/Food truck terminado.piskel", "assets/Sin animar sprites terminados/Food truck terminado.piskel");
-		type.set ("assets/Sin animar sprites terminados/Food truck terminado.piskel", AssetType.TEXT);
-		path.set ("assets/Sin animar sprites terminados/koronel zordor-20180421-173324.piskel", "assets/Sin animar sprites terminados/koronel zordor-20180421-173324.piskel");
-		type.set ("assets/Sin animar sprites terminados/koronel zordor-20180421-173324.piskel", AssetType.TEXT);
-		path.set ("assets/Sin animar sprites terminados/War Donnals-20180421-171702.piskel", "assets/Sin animar sprites terminados/War Donnals-20180421-171702.piskel");
-		type.set ("assets/Sin animar sprites terminados/War Donnals-20180421-171702.piskel", AssetType.TEXT);
+		path.set ("assets/data/data-goes-here.txt", "assets/data/data-goes-here.txt");
+		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
+		path.set ("assets/images/comensales/comensal 1 animacion.png", "assets/images/comensales/comensal 1 animacion.png");
+		type.set ("assets/images/comensales/comensal 1 animacion.png", AssetType.IMAGE);
+		path.set ("assets/images/comensales/comensal 1.png", "assets/images/comensales/comensal 1.png");
+		type.set ("assets/images/comensales/comensal 1.png", AssetType.IMAGE);
+		path.set ("assets/images/comensales/comensal 2 animacion.png", "assets/images/comensales/comensal 2 animacion.png");
+		type.set ("assets/images/comensales/comensal 2 animacion.png", AssetType.IMAGE);
+		path.set ("assets/images/comensales/comensal 2.png", "assets/images/comensales/comensal 2.png");
+		type.set ("assets/images/comensales/comensal 2.png", AssetType.IMAGE);
+		path.set ("assets/images/comensales/comensal 3 animacion.png", "assets/images/comensales/comensal 3 animacion.png");
+		type.set ("assets/images/comensales/comensal 3 animacion.png", AssetType.IMAGE);
+		path.set ("assets/images/comensales/comensal 3.png", "assets/images/comensales/comensal 3.png");
+		type.set ("assets/images/comensales/comensal 3.png", AssetType.IMAGE);
+		path.set ("assets/images/comensales/comensal 4 animacion.png", "assets/images/comensales/comensal 4 animacion.png");
+		type.set ("assets/images/comensales/comensal 4 animacion.png", AssetType.IMAGE);
+		path.set ("assets/images/comensales/comensal 4.png", "assets/images/comensales/comensal 4.png");
+		type.set ("assets/images/comensales/comensal 4.png", AssetType.IMAGE);
+		path.set ("assets/images/comensales/comensal 5 .png", "assets/images/comensales/comensal 5 .png");
+		type.set ("assets/images/comensales/comensal 5 .png", AssetType.IMAGE);
+		path.set ("assets/images/comensales/comensal 5 animacion.png", "assets/images/comensales/comensal 5 animacion.png");
+		type.set ("assets/images/comensales/comensal 5 animacion.png", AssetType.IMAGE);
+		path.set ("assets/images/comensales/SpriteSheet_Comensal1.png", "assets/images/comensales/SpriteSheet_Comensal1.png");
+		type.set ("assets/images/comensales/SpriteSheet_Comensal1.png", AssetType.IMAGE);
+		path.set ("assets/images/food track/1 food truck inicial movimiento.png", "assets/images/food track/1 food truck inicial movimiento.png");
+		type.set ("assets/images/food track/1 food truck inicial movimiento.png", AssetType.IMAGE);
+		path.set ("assets/images/food track/2 food truck apenas roto movimiento.png", "assets/images/food track/2 food truck apenas roto movimiento.png");
+		type.set ("assets/images/food track/2 food truck apenas roto movimiento.png", AssetType.IMAGE);
+		path.set ("assets/images/food track/2 food truck apenas roto.png", "assets/images/food track/2 food truck apenas roto.png");
+		type.set ("assets/images/food track/2 food truck apenas roto.png", AssetType.IMAGE);
+		path.set ("assets/images/food track/3 food truck semi rot.png", "assets/images/food track/3 food truck semi rot.png");
+		type.set ("assets/images/food track/3 food truck semi rot.png", AssetType.IMAGE);
+		path.set ("assets/images/food track/3 food truck semi roto movimiento.png", "assets/images/food track/3 food truck semi roto movimiento.png");
+		type.set ("assets/images/food track/3 food truck semi roto movimiento.png", AssetType.IMAGE);
+		path.set ("assets/images/food track/4 food truck destruido movimiento.png", "assets/images/food track/4 food truck destruido movimiento.png");
+		type.set ("assets/images/food track/4 food truck destruido movimiento.png", AssetType.IMAGE);
+		path.set ("assets/images/food track/4 food truck destruido.png", "assets/images/food track/4 food truck destruido.png");
+		type.set ("assets/images/food track/4 food truck destruido.png", AssetType.IMAGE);
+		path.set ("assets/images/food track/food truck explosion final animada.png", "assets/images/food track/food truck explosion final animada.png");
+		type.set ("assets/images/food track/food truck explosion final animada.png", AssetType.IMAGE);
+		path.set ("assets/images/food track/foodtruckinicial.png", "assets/images/food track/foodtruckinicial.png");
+		type.set ("assets/images/food track/foodtruckinicial.png", AssetType.IMAGE);
+		path.set ("assets/images/food truck 32 pix.png", "assets/images/food truck 32 pix.png");
+		type.set ("assets/images/food truck 32 pix.png", AssetType.IMAGE);
+		path.set ("assets/images/food truck-20180421-150537.piskel", "assets/images/food truck-20180421-150537.piskel");
+		type.set ("assets/images/food truck-20180421-150537.piskel", AssetType.TEXT);
+		path.set ("assets/images/food truck.png", "assets/images/food truck.png");
+		type.set ("assets/images/food truck.png", AssetType.IMAGE);
+		path.set ("assets/images/images-go-here.txt", "assets/images/images-go-here.txt");
+		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
+		path.set ("assets/images/NY-Food-Trucks-2_880.png", "assets/images/NY-Food-Trucks-2_880.png");
+		type.set ("assets/images/NY-Food-Trucks-2_880.png", AssetType.IMAGE);
+		path.set ("assets/images/stock-vector-donut-food-truck-pixel-art-icons-set-vector-illustration-725000674.jpg", "assets/images/stock-vector-donut-food-truck-pixel-art-icons-set-vector-illustration-725000674.jpg");
+		type.set ("assets/images/stock-vector-donut-food-truck-pixel-art-icons-set-vector-illustration-725000674.jpg", AssetType.IMAGE);
+		path.set ("assets/music/music-goes-here.txt", "assets/music/music-goes-here.txt");
+		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
+		path.set ("assets/sounds/sounds-go-here.txt", "assets/sounds/sounds-go-here.txt");
+		type.set ("assets/sounds/sounds-go-here.txt", AssetType.TEXT);
 		className.set ("flixel/sounds/beep.ogg", __ASSET__flixel_sounds_beep_ogg);
 		type.set ("flixel/sounds/beep.ogg", AssetType.SOUND);
 		className.set ("flixel/sounds/flixel.ogg", __ASSET__flixel_sounds_flixel_ogg);
@@ -926,202 +741,91 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#elseif html5
 		
 		var id;
-		id = "assets/adilla puta-20180421-150010.piskel";
+		id = "assets/data/data-goes-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
-		id = "assets/Adilla puta.txt";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Animaciones terminadas/animacion chabon-20180421-170607.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Animaciones terminadas/animacion chabon.png";
+		id = "assets/images/comensales/comensal 1 animacion.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/Animaciones terminadas/ardilla puta-20180421-174524.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Animaciones terminadas/ardilla puta.png";
+		id = "assets/images/comensales/comensal 1.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/Animaciones terminadas/bro rambo corre ametralladora-20180421-172646.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Animaciones terminadas/bro rambo corre ametralladora.png";
+		id = "assets/images/comensales/comensal 2 animacion.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/Animaciones terminadas/bro rambo corre-20180421-172042.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Animaciones terminadas/bro rambo corre.png";
+		id = "assets/images/comensales/comensal 2.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/Animaciones terminadas/pajaro-20180421-173818.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Animaciones terminadas/pajaro.png";
+		id = "assets/images/comensales/comensal 3 animacion.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/Animaciones terminadas/serpiente-20180421-180540.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Animaciones terminadas/serpiente.png";
+		id = "assets/images/comensales/comensal 3.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/bro 1-20180421-141615.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/coronel sanders-20180421-165511.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Delete me.txt";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/adilla puta-20180421-150010.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Adilla puta.txt";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Animaciones terminadas/animacion chabon-20180421-170607.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Animaciones terminadas/animacion chabon.png";
+		id = "assets/images/comensales/comensal 4 animacion.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/food truck/Animaciones terminadas/ardilla puta-20180421-174524.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Animaciones terminadas/ardilla puta.png";
+		id = "assets/images/comensales/comensal 4.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/food truck/Animaciones terminadas/bro rambo corre ametralladora-20180421-172646.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Animaciones terminadas/bro rambo corre ametralladora-20180421-181809.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Animaciones terminadas/bro rambo corre ametralladora.png";
+		id = "assets/images/comensales/comensal 5 .png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/food truck/Animaciones terminadas/bro rambo corre-20180421-172042.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Animaciones terminadas/bro rambo corre.png";
+		id = "assets/images/comensales/comensal 5 animacion.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/food truck/Animaciones terminadas/pajaro-20180421-173818.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Animaciones terminadas/pajaro.png";
+		id = "assets/images/comensales/SpriteSheet_Comensal1.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/food truck/Animaciones terminadas/serpiente-20180421-180540.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Animaciones terminadas/serpiente.png";
+		id = "assets/images/food track/1 food truck inicial movimiento.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/food truck/bro 1-20180421-141615.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/coronel sanders-20180421-165511.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/food truck-20180421-150537.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/hemanos 12-20180421-142928.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/mc pedro-20180421-163652.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/New Piskel-20180421-163701.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/New Piskel-20180421-172844.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/pajaro-20180421-172355.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Sin animar sprites terminados/bro cocinero quieto-20180421-173658.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Sin animar sprites terminados/bro rambo ametralladora-20180421-170441.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Sin animar sprites terminados/bro rambo pistola-20180421-175121.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Sin animar sprites terminados/bro rambo-20180421-164853.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Sin animar sprites terminados/comensal 1.png";
+		id = "assets/images/food track/2 food truck apenas roto movimiento.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/food truck/Sin animar sprites terminados/escala-20180421-134033.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Sin animar sprites terminados/food truck (1).png";
+		id = "assets/images/food track/2 food truck apenas roto.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/food truck/Sin animar sprites terminados/Food truck terminado.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Sin animar sprites terminados/koronel zordor-20180421-173324.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Sin animar sprites terminados/mujer 2 completa-20180421-182343.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck/Sin animar sprites terminados/War Donnals-20180421-171702.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/food truck-20180421-150537.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/hemanos 12-20180421-142928.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/mc pedro-20180421-163652.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/New Piskel-20180421-163701.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/New Piskel-20180421-172844.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/pajaro-20180421-172355.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Sin animar sprites terminados/bro cocinero quieto-20180421-173658.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Sin animar sprites terminados/bro rambo ametralladora-20180421-170441.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Sin animar sprites terminados/bro rambo pistola-20180421-175121.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Sin animar sprites terminados/bro rambo-20180421-164853.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Sin animar sprites terminados/escala-20180421-134033.piskel";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/Sin animar sprites terminados/food truck (1).png";
+		id = "assets/images/food track/3 food truck semi rot.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/Sin animar sprites terminados/Food truck terminado.piskel";
+		id = "assets/images/food track/3 food truck semi roto movimiento.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/food track/4 food truck destruido movimiento.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/food track/4 food truck destruido.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/food track/food truck explosion final animada.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/food track/foodtruckinicial.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/food truck 32 pix.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/food truck-20180421-150537.piskel";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
-		id = "assets/Sin animar sprites terminados/koronel zordor-20180421-173324.piskel";
+		id = "assets/images/food truck.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/images-go-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
-		id = "assets/Sin animar sprites terminados/War Donnals-20180421-171702.piskel";
+		id = "assets/images/NY-Food-Trucks-2_880.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/stock-vector-donut-food-truck-pixel-art-icons-set-vector-illustration-725000674.jpg";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/music/music-goes-here.txt";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "assets/sounds/sounds-go-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
 		id = "flixel/sounds/beep.ogg";
@@ -1165,43 +869,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#if (windows || mac || linux)
 		
 		var useManifest = false;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
-		useManifest = true;
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
@@ -1996,43 +1663,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @:keep @:bind #if display private #end class __ASSET__flixel_sounds_beep_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__flixel_sounds_flixel_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__flixel_fonts_nokiafc22_ttf extends null { }
@@ -2042,43 +1672,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 #elseif html5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
