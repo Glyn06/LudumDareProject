@@ -36,7 +36,7 @@ class ComensalesGenerator extends FlxSprite
 			grupocomen.add(comensales);
 			FlxG.state.add(grupocomen);
 			}
-			timer = 0;	
+			timer = 0;
 		}
 	}
 }

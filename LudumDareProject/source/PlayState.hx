@@ -14,7 +14,7 @@ class PlayState extends FlxState
 	var enemy_ = new Enemigo(0,0);
 	var generador = new ComensalesGenerator(100, 200);
 	var gl = new GameLogic();
-	public var generatorEnemy = new EnemyGenerator(500.200);
+	public var generatorEnemy = new EnemyGenerator(500,200);
 
 	
 	override public function create():Void
