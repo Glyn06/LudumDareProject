@@ -24,6 +24,9 @@ class EnemyGenerator extends FlxSprite
 	
 	override public function update(elapsed:Float):Void 
 	{
+		
+		super.update(elapsed);
+		
 		timer += elapsed;
 		if (timer >= maxTime)
 		{
@@ -32,7 +35,7 @@ class EnemyGenerator extends FlxSprite
 			timer = 0;
 		}
 		
-		super.update(elapsed);
+		
 		
 	}
 	

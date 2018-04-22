@@ -15,6 +15,7 @@ class Comensal extends FlxSprite
 	{
 		super(X, Y, SimpleGraphic);
 		makeGraphic(16, 16, FlxColor.BLUE);
+		velocity.y = -20;
 		
 	}
 	

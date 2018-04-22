@@ -25,7 +25,6 @@ class GameLogic extends FlxBasic
 		Reloj += elapsed;
 		if (Reloj  >= maxTime)
 		{ 
-			
 			GameOver();
 			Reloj = 0;
 		}

@@ -11,16 +11,16 @@ import flixel.util.FlxColor;
 class FoodTruck extends FlxSprite
 {
 	static private var life:Float;
+	private var Camion:FoodTruck;
 	public function new(?X:Float=0, ?Y:Float=0, ?SimpleGraphic:FlxGraphicAsset) 
 	{
 		super(X, Y, SimpleGraphic);
 		makeGraphic(100, 50, FlxColor.RED);
-		life = 0;
+		life = 100;
 	}
 	
 	override public function update(elapsed:Float):Void 
 	{
-		
 		super.update(elapsed);
 	}
 	static public function Getter():Float

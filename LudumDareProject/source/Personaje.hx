@@ -12,7 +12,7 @@ import flixel.util.FlxColor;
 
 class Personaje extends FlxSprite
 {
-	private var player:FlxSprite;
+	static public var player:FlxSprite;
 	
 	public function new(?X:Float=0, ?Y:Float=0, ?SimpleGraphic:FlxGraphicAsset) 
 	{
@@ -22,6 +22,8 @@ class Personaje extends FlxSprite
 	
 	override public function update(elapsed:Float):Void 
 	{
+		super.update(elapsed);
+		
 		velocity.x = 0;
 		velocity.y = 0;
 		
@@ -45,11 +47,8 @@ class Personaje extends FlxSprite
 			velocity.y = 50;
 		}
 		
-		super.update(elapsed);
+		
 	}
 	
-	public function GameOver():Void
-	{
-		destroy();
-	}
+	
 }
